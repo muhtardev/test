@@ -1,0 +1,113 @@
+*{
+padding: 0;
+margin: 0;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+a {
+    text-decoration: none;
+}
+.blog{
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    color: black;
+}
+.blog span  a{
+    width: 106px;
+        height: 27px;
+        flex-shrink: 0;
+        color: var(--Primary, #FF6464);
+            text-align: right;
+            font-family: Heebo;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+}
+#blog {
+    padding: 60px;
+}
+.blog a {
+    width: 106px;
+        height: 43px;
+        flex-shrink: 0;
+        color: #000;
+            text-align: right;
+            font-family: Heebo;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+}
+.ssd h1 {
+    width: 682px;
+        height: 33px;
+        flex-shrink: 0;
+        color: var(--Dark-Color, #21243D);
+            font-family: Heebo;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+}
+.ssd h3 {
+    width: 374px;
+        height: 25px;
+        flex-shrink: 0;
+        color: var(--Dark-Color, #21243D);
+            font-family: Heebo;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+}
+
+.ssd p {
+    width: 682px;
+        height: 43px;
+        flex-shrink: 0;
+        color: var(--Dark-Color, #21243D);
+            font-family: Heebo;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+}
+
+input {
+    border: none;
+}  
+.ssd h3{
+    padding: 30px 0;
+}
+.ssd { 
+    width: 800px;
+    border-top: 1px solid rgba(0, 0, 0, 0.26);
+    margin: 40px 0;
+
+}
+.line {
+    width: 800px;
+    border-top: 1px solid rgba(0, 0, 0, 0.26);
+
+}
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-text {
+    display: flex;
+    gap: 1pc;
+    margin-top: 150px;
+    padding: 20px;
+}
+
+
+
